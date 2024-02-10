@@ -810,10 +810,14 @@ span.left_line {
 .gallery__wrapper.row {
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery__wrapper.row > a {
+  display: flex;
+  width: calc(25% - 20px);
 }
 .gallery__wrapper.row img {
   max-width: 100%;
-  width: calc(25% - 20px);
 }
 /* ---------------------------------------------- SINGLE EVENT PAGE -------------------------------------------- */
 
