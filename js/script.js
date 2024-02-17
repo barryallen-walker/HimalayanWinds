@@ -1,30 +1,11 @@
 jQuery(document).ready(function(){
-	
-  // image preview with slider Lightbox
-  // jQuery('[data-fancybox="gallery"]').fancybox({
-  //   buttons: 
-  //   [ 
-  //       "slideShow", 
-  //       "thumbs", 
-  //       "zoom", 
-  //       "fullScreen", 
-  //       "share", 
-  //       "close" 
-  //   ], 
-  //   loop: false, 
-  //   protect: true,
-  //   afterLoad : function(instance, current) {
-  //     instance.update();
-
-  //   }
-  // });
   
   jQuery('.slick_slider').slick({
     dots: false,
     infinite: true,
-    speed: 500,
-    // autoplay: true,
-    // autoplaySpeed: 5000,
+    speed: 600,
+    autoplay: true,
+    autoplaySpeed: 8000,
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
